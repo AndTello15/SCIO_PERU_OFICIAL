@@ -1,0 +1,173 @@
+﻿#Fondo {
+    background-color: #0B3C5D;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0;
+    width: 100%;
+}
+
+.Tabla {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #D9B310;
+    width: 100%;
+    height: 15%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+    border: none;
+}
+
+.Logo {
+    background-color: #1D2731;
+    grid-column: 1;
+    background-image: url(../Imagenes/SCIO_OFICIAL_09-08-2020_4.png);
+    background-size: 100%;
+}
+
+.Menu {
+    background-color: #D9B310;
+    grid-column: 2;
+    color: #1D2731;
+    font-family: Exotc350 Bd BT;
+    text-align:center;
+}
+.Cuerpo{
+    position:absolute;
+    top:15%;
+    left:0%;
+    background-color:white;
+    height:84%;
+    width:99.6%;
+    border: solid 3px #0B3C5D;
+    text-align:center;
+}
+.posHorario{
+    position: relative;
+    top:0px;
+    left: -30%;
+}
+.posCurso {
+    position: relative;
+    top: 10px;
+    left: 0%;
+    font-size:150%;
+}
+.posIngresar {
+    position: relative;
+    top: 0px;
+    left: 20%;
+}
+.boton{
+    position:relative;
+    top:0px;
+    left: 30%;
+    background:#1D2731;
+    color:white;
+    font-family: Exotc350 Bd BT;
+    width:10%;
+    height:30px;
+    border:solid 1px #1D2731;
+    border-radius:5px;
+}
+.Contenido{
+    position:relative;
+    left:0%;
+    top:-20px;
+}
+.etiqueta {
+    color:#1D2731;
+    font-family: Exotc350 Bd BT;
+    position:relative;
+    left:-31%;
+}
+.cbo_select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 6%;
+    padding: 0.35%;
+    cursor: pointer;
+    outline: 0;
+    color: black;
+    font-size: 1em;
+    border: 1px solid #0B3C5D;
+    border-radius: 5px;
+    position: relative;
+    left: 1.2%;
+    padding-left: 2%;
+    padding-right: 4%;
+    text-align: center;
+    background-color: white;
+    background-image: url("../Imagenes/combobox.png");
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%,0 0;
+    background-size: 1em auto, 100%;
+}
+.cbo_select::-ms-expand {
+        display: none;
+}
+#cbo_Hora {
+    border-color: #0B3C5D;
+    border-radius: 5px;
+    width: 8%;
+    height: 5%;
+    border: solid 1px #0B3C5D;
+    position:relative;
+    left:-31%;
+    text-align:center;
+}
+.Fecha {
+    background-color: white;
+    background-image: url("../Imagenes/Calendario_icono.fw.png");
+    background-repeat: no-repeat, repeat;
+    background-position: right 8% top 50%,0 0;
+    background-size: 14%;
+    position: relative;
+    left: -30%;
+    top: -2px;
+    width: 15%;
+    height:28px;
+    text-align: center;
+    border:solid 1px #0B3C5D;
+    border-radius:5px;
+}
+.ImagenAsesor{
+    border-radius:100%;
+    border: 2px solid #0B3C5D;
+    width:4%;
+    height: 50px;
+    position:relative;
+    left:20%;
+    top:30px;
+}
+.DatosSesion {
+    color: #328CC1;
+    position: relative;
+    top: 230px;
+    left: 20%;
+    font-family: Exotc350 Bd BT;
+}
+.Inversion {
+    color: black;
+    font-family: Exotc350 Bd BT;
+}
+.PosMonto{
+    position:relative;
+    top:235px;
+    left:64.2%;
+    width:10%;
+}
+.boton2{
+    background-color:#0B3C5D;
+    color:#D9B310;
+    font-family:Exotc350 Bd BT;
+    width:100%;
+    border: solid 1px #0B3C5D;
+    border-radius:5px;
+    height:30px;
+    position:relative;
+    left:10%;
+}

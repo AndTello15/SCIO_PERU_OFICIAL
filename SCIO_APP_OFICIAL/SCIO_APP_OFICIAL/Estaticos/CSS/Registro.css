@@ -1,0 +1,361 @@
+﻿.titulo{
+    position: relative;
+    top: 30px;
+}
+.Tabla1 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    background-color: white;
+    width: 80%;
+    height: 75%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    border: none;
+}
+.Formulario {
+    position:relative;
+    top: 20px;
+    left: 20%;
+    padding-bottom : 0;
+}
+.etiqueta {
+    font-family: Exotc350 Bd BT;
+    color: #1D2731;
+}
+.Texto {
+    border-color: #0B3C5D;
+    border-radius: 5px;
+    width: 30%;
+    height: 5%;
+    border: solid 1px #0B3C5D;
+    left: 20%;
+}
+#txtNombres{
+    position:relative;
+    left: 8.3%;
+}
+#txtApellidos {
+    position: relative;
+    left: 7.9%;
+}
+#Fecha {
+    background-color: white;
+    background-image: url("../Imagenes/Calendario_icono.fw.png");
+    background-repeat: no-repeat, repeat;
+    background-position: right 8% top 50%,0 0;
+    background-size: 15%;
+    padding-right: 0%;
+    position: relative;
+    left: 1.2%;
+    width: 15%;
+    text-align: center;
+}
+#txtEdad{
+    position:relative;
+    left:10.4%;
+    width:8%;
+}
+#txtDireccion{
+    position:relative;
+    left: 7.2%;
+    width: 70%;
+}
+#cbo_Departamento {
+    position: relative;
+    left: 4.7%;
+    width: 20%;
+}
+#cbo_Provincia {
+    position: relative;
+    left: 7.3%;
+    width: 20%;
+}
+.cbo_select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 6%;
+    padding: 0.35%;
+    cursor: pointer;
+    outline: 0;
+    color: black;
+    font-size: 1em;
+    border: 1px solid #0B3C5D;
+    border-radius: 5px;
+    position: relative;
+    left: 1.2%;
+    padding-left: 2%;
+    padding-right: 4%;
+    text-align: center;
+    background-color: white;
+    background-image: url("../Imagenes/combobox.png");
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%,0 0;
+    background-size: 1em auto, 100%;
+}
+.cbo_select::-ms-expand {
+     display: none;
+}
+#txtFoto{
+    width:40%;
+    position:relative;
+    left: 10.2%;
+}
+.boton {
+    background-color: #0B3C5D;
+    color: #D9B310;
+    font-family: Exotc350 Bd BT;
+    width: 10%;
+    height:6%;
+    border-radius: 5px;
+    border: 1px solid #0B3C5D;
+    text-align:center;
+    font-size:100%;
+}
+#btn_BuscarFoto {
+    position: relative;
+    left: 10.5%;
+}
+.radioboton {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+}
+.radioInput {
+    position: relative;
+    padding: 0px 0 0px 10%;
+    font-family: Exotc350 Bd BT;
+    color: #1D2731;
+}
+.Asesor{
+    position:absolute;
+    border-radius: 100%;
+    width: 9%;
+    height: 70%;
+    border: solid 1px #0B3C5D;
+    left:45%;
+}
+.radioInput input[type=radio] + i:before {
+    content: '';
+    display: block;
+    height: 60%;
+    width: 60%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top:18%;
+    background: #0B3C5D;
+    transition: all 0.25s ease; 
+    transform: scale(0);
+    opacity: 0;
+}
+.Estudiante {
+    position: absolute;
+    border-radius: 100%;
+    width: 7.7%;
+    height: 70%;
+    border: solid 1px #0B3C5D;
+    left: 38.7%;
+}
+.radioInput input[type=radio]:checked + i:before{
+    transform: scale(1);
+    opacity: 1;
+}
+.radioInput:hover input[type=radio]:not(:checked) + i {
+    background-color:white;
+}
+.btnCursos {
+    background-color: #0B3C5D;
+    background-image: url(../Imagenes/cursos.png);
+    color: white;
+    font-family: Exotc350 Bd BT;
+    width: 13%;
+    height: 30px;
+    text-align:left;
+    padding-left:4%;
+    border-radius: 5px;
+    border: solid 1px #0B3C5D;
+    background-repeat: no-repeat, repeat;
+    background-position-x: 10%;
+    background-position-y: 50%;
+    background-size: 10%;
+}
+.CursosAdolescencia{
+    position:relative;
+    left: 5%;
+}
+.btnArea {
+    background-color: white;
+    background-image: url(../Imagenes/combobox.png);
+    color: #0B3C5D;
+    font-family: Exotc350 Bd BT;
+    width: 15%;
+    height: 30px;
+    text-align: left;
+    padding-left: 4%;
+    border-radius: 5px;
+    border: solid 1px #0B3C5D;
+    background-repeat: no-repeat, repeat;
+    background-position-x: 10%;
+    background-position-y: 50%;
+    background-size: 10%;
+}
+.custom-checkbox {
+    display:inline-flex;
+    align-items:center;
+    cursor:pointer;
+    font-family: Exotc350 Bd BT;
+}
+.custom-checkbox > .checkbox{
+    display:none;
+}
+.chkcursos{
+    background-image: url(../Imagenes/chk.png);
+    background-size: 100%;
+}
+.custom-checkbox > .chkcursos {
+    display: inline-block;
+    width:15px;
+    height:15px;
+    margin-right: .5em;
+    background-size:cover;
+}
+.custom-checkbox > .checkbox:checked + .chkcursos{
+    background-image: url(../Imagenes/chk_presionado.png);
+    background-size: 100%;
+}
+.NombCurso{
+    font-family: Exotc350 Bd BT;
+    color:#328CC1;
+}
+.chk_texto{
+    color:black;
+}
+
+#TablaSecundariaCursos {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 34% 33% 33%;
+    border: none;
+}
+#Matematica_Secu {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: solid 5px white;
+    display: none;
+}
+#CTA_Secu {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: solid 5px white;
+    display:none;
+}
+#Idiomas_Secu {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border: solid 5px white;
+    display: none;
+}
+#Ciencias_Sociales_Secu {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: solid 5px white;
+    display: none;
+}
+#Comunicacion_Secu {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: solid 5px white;
+    display: none;
+}
+#AyC_Secu {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border: solid 5px white;
+    display: none;
+}
+#Computo_Secu {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: solid 5px white;
+    display: none;
+}
+
+#TablaPreuniversitarioCursos {
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    border: none;
+}
+#PreMatematica {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: solid 5px white;
+    display:none;
+}
+
+#PreCTAregistro {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: solid 5px white;
+    display: none;
+}
+
+#PreComunicacion {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border: solid 5px white;
+    display: none;
+}
+#BtnSecundaria{
+    display:block;
+}
+#BtnPreUniversitario{
+    display:block;
+}
+#AdolescenciaCursos {
+    display: none;
+    width: 100%;
+    position: relative;
+    left: 5%;
+}
+.SeleccionCursos {
+    position: relative;
+    left: 20%;
+    top:40px;
+    display:none;
+}
+.Ocu_Estudiante{
+    position:relative;
+    left: 20%;
+    top:40px;
+    display:none;
+}
+#cbo_Fase{
+    height:29%;
+    position:relative;
+    left: 10.3%;
+    width:20%;
+}
+#cbo_Nivel {
+    height: 29%;
+    position: relative;
+    left: 9.7%;
+    width: 20%;
+}
+#BtnAceptar{
+    position:absolute;
+    top:170%;
+}

@@ -1,0 +1,332 @@
+﻿#Fondo {
+    background-color: #0B3C5D;
+    position:absolute;
+    top:0%;
+    left:0%;
+    margin:0;
+    width:100%;
+}
+.Tabla {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #D9B310;
+    width: 100%;
+    height: 15%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+    border: none;
+}
+
+.Logo {
+    background-color: #1D2731;
+    grid-column: 1;
+    background-image: url(../Imagenes/SCIO_OFICIAL_09-08-2020_4.png);
+    background-size: 100%;
+}
+
+.Menu {
+    background-color: #D9B310;
+    grid-column: 2;
+    color: #1D2731;
+    text-align: center;
+    font-size: 150%;
+    font-family: Exotc350 Bd BT;
+}
+#asesoramos {
+    font-family: Exotc350 Bd BT;
+    color: #1D2731;
+    font-size: 80%;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+}
+
+#img_menu {
+    width: 2.5%;
+    height: 38%;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    background-image: url(../Imagenes/menu_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#img_menu1 {
+    width: 2.5%;
+    height: 38%;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    background-image: url(../Imagenes/menu_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+.Ingresar {
+    border: none;
+    background-color: #D9B310;
+    color: #1D2731;
+    font-family: Exotc350 Bd BT;
+    font-size: 110%;
+    position: absolute;
+    top: 5.5%;
+    left: 60%;
+    cursor: pointer;
+}
+
+#btnSuscribirse {
+    position: absolute;
+    top: 4%;
+    left: 85%;
+    border: none;
+    background-color: #1D2731;
+    color: white;
+    font-family: Exotc350 Bd BT;
+    font-size: 110%;
+    width: 10%;
+    height: 6%;
+    border-radius: 5px;
+}
+#Fase {
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    height: 180px;
+    font-family: Exotc350 Bd BT;
+    width:10%;
+    display:none;
+    padding-left:0%;
+    padding-top:0%;
+    padding-bottom:0%;  
+}
+.CFase{
+    color:#0B3C5D;
+    width:100%;
+}
+.CFase:hover {
+    background-color: white;
+    background-image:url("../Imagenes/fase.png");
+    background-size:10%;
+    background-position-x:right;
+    background-position-y:45%;
+    background-repeat:no-repeat;
+}
+.Area_Cursos1 {
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 750%;
+    height: 250%;
+    display:none;
+}
+ul,ol{
+    list-style:none;
+}
+.nav{
+    padding:0%;
+    padding-top:0%;
+    background-color:white;
+    padding-left:10%;
+    padding-right:0;
+}
+.nav > li{
+    float:left;
+}
+.nav li {
+    display: block;
+}
+.nav li:hover {
+    background-image:url("../Imagenes/fase.png");
+    background-position-x: 99%;
+    background-position-y: 50%;
+    background-size:10%;
+    color:#328CC1;
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li ul li {
+    position: relative;
+}
+
+/* Cursos Secundaria*/
+#lblSecundaria {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-family: Exotc350 Bd BT;
+    color: #0B3C5D;
+}
+.curso {
+    color: #1D2731;
+    font-family: Exotc350 Bd BT;
+}
+#posCurso{
+    position:absolute;
+    left:4%;
+    top:12%;
+    background-color:white;
+}
+#posCursoCTA {
+    position: absolute;
+    left: 23%;
+    top: 12%;
+    background-color: white;
+}
+#posCursoComun {
+    position: absolute;
+    left: 46%;
+    top: 12%;
+    background-color: white;
+}
+#posCursoIdioma {
+    position: absolute;
+    left: 62%;
+    top: 12%;
+    background-color: white;
+}
+#posCursoComputo {
+    position: absolute;
+    left: 75%;
+    top: 12%;
+    background-color: white;
+}
+#posCursoCS {
+    position: absolute;
+    left: 84%;
+    top: 12%;
+    background-color: white;
+}
+#posCursoAC {
+    position: absolute;
+    left: 4%;
+    top: 45%;
+    background-color: white;
+}
+#Mate{
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#CTA {
+    position: absolute;
+    top: 7%;
+    left: 22%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#Comun {
+    position: absolute;
+    top: 7%;
+    left: 45%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#Idioma {
+    position: absolute;
+    top: 7%;
+    left: 61%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#Computo {
+    position: absolute;
+    top: 7%;
+    left: 74%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#CS {
+    position: absolute;
+    top: 7%;
+    left: 83%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#AC{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+/* Cursos Preuniversitario*/
+#lblPreuniversitario {
+    position: absolute;
+    left: 2%;
+    top: 57%;
+    font-family: Exotc350 Bd BT;
+    color: #0B3C5D;
+}
+#PreMate {
+    position: absolute;
+    top: 62%;
+    left: 3%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#PreCTA {
+    position: absolute;
+    top: 62%;
+    left: 22%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#PreComun {
+    position: absolute;
+    top: 62%;
+    left: 45%;
+    font-family: Exotc350 Bd BT;
+    color: #328CC1;
+}
+#posCursoPreMate {
+    position: absolute;
+    left: 4%;
+    top: 67%;
+    background-color: white;
+}
+#posCursoPreCTA {
+    position: absolute;
+    left: 23%;
+    top: 67%;
+    background-color: white;
+}
+#posCursoPreComun {
+    position: absolute;
+    left: 46%;
+    top: 67%;
+    background-color: white;
+}
+#BtnUsuario {
+    position: absolute;
+    background-color:#D9B310;
+    top: 10%;
+    left: 85%;
+    border: none;
+    color: #1D2731;
+    font-family: Exotc350 Bd BT;
+    font-size: 110%;
+    width: 10%;
+    height: 6%;
+    border-radius: 5px;
+}
+.Usuario {
+    background-color: white;
+    width: 10%;
+    font-family: Exotc350 Bd BT;
+    color:#0B3C5D;
+    text-align:left;
+    padding-left:2%;
+}
